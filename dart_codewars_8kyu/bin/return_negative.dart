@@ -14,3 +14,6 @@ void main(List<String> args) {
   var value = makeNegative(-9);
   print(value);
 }
+
+// BEST ANSWER
+num makeNegative(n) => -n.abs();
