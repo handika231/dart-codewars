@@ -11,6 +11,11 @@ void main() {
     return result;
   }
 
-  var coba = repeatString(6, 'hello');
-  print(coba);
+  var value = repeatString(6, 'hello');
+  print(value);
+}
+
+// NOTE: BEST SOLVE
+String repeatString(int n, String s) {
+  return s * n;
 }
