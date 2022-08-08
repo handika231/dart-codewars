@@ -1,5 +1,8 @@
-import 'package:reversed_string/reversed_string.dart' as reversed_string;
+void main() {
+  String solution(String str) {
+    return str.split('').reversed.join();
+  }
 
-void main(List<String> arguments) {
-  print('Hello world: ${reversed_string.calculate()}!');
+  var str = 'world';
+  print(solution(str)); //dlrow
 }
