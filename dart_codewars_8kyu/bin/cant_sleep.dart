@@ -18,3 +18,6 @@ void main(List<String> args) {
   var value = countSheep(3);
   print(value);
 }
+
+// BEST ANSWER
+String countSheep(numb) => List.generate(numb, (i) => '${++i} sheep...').join();
