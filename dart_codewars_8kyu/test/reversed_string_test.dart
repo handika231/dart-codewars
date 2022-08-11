@@ -1,4 +1,4 @@
-import 'package:reversed_string/reversed_string.dart';
+import 'package:reversed_string/main.dart';
 import 'package:test/test.dart';
 
 void main() {
