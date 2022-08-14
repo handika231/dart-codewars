@@ -12,3 +12,8 @@ main() {
     return result;
   }
 }
+
+// BEST PRACTICE
+int oddCount(n) {
+  return (n / 2).toInt();
+}
