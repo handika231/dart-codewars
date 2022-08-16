@@ -3,7 +3,17 @@
 
 main() {
   num sum(List<num> arr) {
-    // your code here
-    return arr.isNotEmpty ? arr.reduce((a, b) => a + b) : 0;
+    num result = 0;
+    if (arr.isEmpty) {
+      return 0;
+    } else {
+      for (var e in arr) {
+        result += e;
+      }
+    }
+    return result;
   }
+
+  var coba = sum([-14, 8]);
+  print(coba);
 }
