@@ -1,2 +1,2 @@
-# dart-codewars-8kyu
-solve problem from codewars 8 kyu
+# dart-codewars
+solve problem from codewars
